@@ -1,7 +1,15 @@
 import React from 'react';
 
-export default function SignUpButton(){
+type ButtonProps = {
+    logo: React.ReactNode,
+    text: string
+}
+
+export default function SignUpButton({logo, text}: ButtonProps){
     return (
-        <button>Button</button>
+        <button>
+            {logo}
+            {text}
+        </button>
     )
 }

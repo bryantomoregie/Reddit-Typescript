@@ -13,3 +13,6 @@ export default function SignUpButton({logo, text}: ButtonProps){
         </button>
     )
 }
+
+/*On click of login button, set state to true. If true, 
+present the other ui */

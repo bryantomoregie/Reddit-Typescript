@@ -1,0 +1,27 @@
+nav{
+    background-color: #152238;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#useAppButton{
+    background-color: #ff4500;
+    color: white;
+    font-size: 12px;
+    padding: 7px;
+    border-radius: 16px;
+}
+
+.fa-reddit{
+    background-color: white;
+    border-radius: 100%;
+}
+

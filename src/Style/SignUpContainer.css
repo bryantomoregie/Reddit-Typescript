@@ -1,0 +1,20 @@
+.SignUpContainer{
+    margin: 15px 10px 10px 10px;
+    display: flex; 
+    flex-direction: column;
+    height: 60vh;
+    justify-content: space-between;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+#signUp{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+

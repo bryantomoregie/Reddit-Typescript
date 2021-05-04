@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from './Components/Navigation';
 import SignUpContainer from './Components/SignUpContainer'
+import './Style/App.css'
 
 
 function App() {

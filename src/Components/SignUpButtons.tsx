@@ -5,10 +5,18 @@ type ButtonProps = {
     text: string
 }
 
+const logoStyle = {
+    color: "black",
+    margin: "auto 70px auto -80px",
+
+}
+
 export default function SignUpButton({logo, text}: ButtonProps){
     return (
-        <button>
+        <button className="button">
+            <span style={logoStyle}>
             {logo}
+            </span>    
             {text}
         </button>
     )

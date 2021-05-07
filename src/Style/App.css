@@ -2,6 +2,8 @@
 @import 'Navigation.css';
 @import 'SignUpContainer.css';
 @import 'SignUpButtons.css';
+@import 'LoginForm.css';
+
 
 *{
     box-sizing: border-box;

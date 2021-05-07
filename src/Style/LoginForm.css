@@ -1,0 +1,29 @@
+#loginContainer{
+    margin: 0px 10px 10px 10px; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#line{
+    border-bottom: 1px solid #ececec;
+}
+
+
+.loginInput{
+    background-color:#F5F5F5;
+    margin: 20px 0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 18px;
+    font-size: 16px;
+    font-weight: lighter;
+    border: none;
+    color: #336699;
+    outline: none;
+}
+
+.submitBtn{
+    color: white;
+    background-image: linear-gradient(45deg, #F11D28, #FF872C);
+}

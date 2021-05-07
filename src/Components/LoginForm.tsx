@@ -6,23 +6,21 @@ type LoginProps = {
 const LoginForm: React.FC<LoginProps> = function (props) {
   console.log(props);
   return (
-    <>
-      <div>
-        -------------<span>OR</span>---------------
-      </div>
-      <form>
-        <input placeholder="Username"></input>
-        <input placeholder="Password"></input>
-        <p>
+    <div id="loginContainer">
+      <div id="line"></div>
+      <form id="loginForm">
+        <input className="loginInput" placeholder="Username"></input>
+        <input className="loginInput" placeholder="Password"></input>
+        <p className="text bottom">
           Forgot your <span>username</span> or <span>password</span>?
         </p>
-        <input type="submit" value="Log In"></input>
-        <p>
+        <input className="loginInput submitBtn" type="submit" value="Log In"></input>
+        <p className="text bottom">
           New to Reddit?{" "}
           <span onClick={() => props.setOpenLogin(false)}>Sign Up</span>
         </p>
       </form>
-    </>
+    </div>
   );
 };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { isWhiteSpaceLike } from 'typescript';
+
 
 const logoStyle = {
     fontSize: '1.5rem',
@@ -15,6 +15,7 @@ const arrowStyle = {
 
 
 export default function Navigation(){
+  
     return(
         <nav>
             <div id="logo">

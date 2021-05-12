@@ -11,7 +11,7 @@ export default function SignUpContainer(props: any) {
     logo: React.ReactNode;
     text: string;
   };
-  console.log(props);
+
   const [openLogin, setOpenLogin] = useState<boolean>(false);
 
   const buttons: Button[] = [

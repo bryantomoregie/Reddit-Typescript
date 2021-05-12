@@ -1,22 +1,23 @@
-import React from 'react';
-import Navigation from './Components/Navigation';
-import SignUpContainer from './Components/SignUpContainer'
-import './Style/App.css'
-
+import React, { useState } from "react";
+import Navigation from "./Components/Navigation";
+import SignUpContainer from "./Components/SignUpContainer";
+import HomePage from "./Components/HomePage";
+import "./Style/App.css";
 
 function App() {
+  const [showHomePage, setShowHomePage] = useState(false);
+
+  const showHome = () => setShowHomePage(!showHomePage);
+
   return (
     <>
-    <Navigation />
-    <SignUpContainer/>
+      <Navigation showHome={showHome} />
+      {showHomePage ? <HomePage /> : <SignUpContainer />}
     </>
   );
 }
 
-
-
 export default App;
-
 
 /*
 App componnet

@@ -1,0 +1,63 @@
+.cardContainer{
+    background-color: white;
+    margin: 5px 0;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.topDiv{
+    display: flex;
+}
+
+.divTop{
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.time{
+    color: grey;
+    font-weight: lighter;
+}
+
+.join{
+    color: dodgerblue;
+}
+
+.dots{
+    margin-left: auto;
+}
+
+.avatar{
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+
+.middleDiv{
+    display: flex;
+    font-size: 15px;
+}
+
+#postImage{
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+}
+
+.bottomDiv{
+    display: flex;
+    color: grey;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.divBottom{
+    border: 1px solid #ececec;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5rem;
+}
+
+
+

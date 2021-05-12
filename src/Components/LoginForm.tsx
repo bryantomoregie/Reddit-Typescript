@@ -4,7 +4,6 @@ type LoginProps = {
   setOpenLogin: (bool: boolean) => void;
 };
 const LoginForm: React.FC<LoginProps> = function (props) {
-  console.log(props);
   return (
     <div id="loginContainer">
       <div id="line"></div>
@@ -14,7 +13,11 @@ const LoginForm: React.FC<LoginProps> = function (props) {
         <p className="text bottom">
           Forgot your <span>username</span> or <span>password</span>?
         </p>
-        <input className="loginInput submitBtn" type="submit" value="Log In"></input>
+        <input
+          className="loginInput submitBtn"
+          type="submit"
+          value="Log In"
+        ></input>
         <p className="text bottom">
           New to Reddit?{" "}
           <span onClick={() => props.setOpenLogin(false)}>Sign Up</span>
